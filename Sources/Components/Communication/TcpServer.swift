@@ -11,7 +11,7 @@ import Socket
 import Dispatch
 import LoggerAPI
 import Core
-import Commessage
+import Common
 
 
 public class TcpServer: Component {
@@ -98,7 +98,7 @@ public class TcpServer: Component {
                             let msg = try Commessage(rawData: readData)
                             readData = readData.subdata(in: msg.msg_size! ..< readData.count)
                             Log.verbose("Push Task")
-                            Service.instance()?.pushTask(msg: msg, socket: socket)
+                            
                         }catch CommessageError.size_invalid{
                             Log.info("Appen Receive Data")
                         }
