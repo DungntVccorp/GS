@@ -21,7 +21,7 @@ public class Service : Component{
 
     
     public override func loadConfig() throws {
-        
+        /// LOAD SERVICE HANDLER
     }
     public override func priority() -> Int {
         return 1

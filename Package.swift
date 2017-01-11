@@ -4,11 +4,9 @@ let package = Package(
     name: "GS",
     targets: [
         Target(name: "Commessage"),
-        Target(name: "Core"),
-        Target(name: "Communication",dependencies: ["Core","Commessage"]),
-        Target(name: "OperationTask",dependencies: ["Core"]),
-        Target(name: "Log",dependencies: ["Core"]),        
-        Target(name: "GS",dependencies: ["Core","Communication","OperationTask","Log"])        
+        Target(name: "Core",dependencies: ["Commessage"]),
+        Target(name: "Components",dependencies:["Core"]),
+        Target(name: "GS",dependencies: ["Core","Components"])
         ],
     dependencies: [
         .Package(url: "https://github.com/apple/swift-protobuf.git", Version(0,9,24)),
