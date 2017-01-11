@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72F3E30D83D949FDCC3482B24EFA334B45549DBC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43BF8F9148B1F39FBDE34E7D1E69C54C78D21FCC" : 9223372036854775807,
+    "72F3E30D83D949FDCC3482B24EFA334B45549DBC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "096DC2F7-3EF1-4757-A20C-17816A5A96F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43BF8F9148B1F39FBDE34E7D1E69C54C78D21FCC" : "GS\/Packages\/SwiftProtobuf-0.9.24\/",
+    "72F3E30D83D949FDCC3482B24EFA334B45549DBC" : "GS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/apple\/swift-protobuf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43BF8F9148B1F39FBDE34E7D1E69C54C78D21FCC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DungntVccorp\/GS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72F3E30D83D949FDCC3482B24EFA334B45549DBC"
+    }
+  ]
+}
